@@ -1,0 +1,269 @@
+body{
+    overflow-x: hidden;
+    background: #4b6cb7;  /* fallback for old browsers */
+background-color: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background-color: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: #182848;
+background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    font-family: "Montserrat";
+}
+
+
+/*Login*/
+.login-container{
+    display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #add8e6;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 60px auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: -1px;
+}
+
+.btn-width{
+    margin-top: 15px;
+}
+
+
+
+
+.card-width{
+    width: 600px;
+background-color: #182848;
+background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+   
+}
+
+.fgt{
+    position: relative;
+    left: 30px;
+    text-decoration: underline;
+}
+
+
+.hustle{
+    padding-bottom: 10px;
+}
+
+.rm-me, a{
+    color: lightblue;
+}
+
+.login-btn {
+    display: inline-block;
+    background-color: #4169E1;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.top placeholder{
+    color: yellow;
+}
+/*Login*/
+
+/*Navbar*/
+
+#NavMenuBar{
+    color:white!important;
+    font-size: 24px !important;
+    position: relative;
+    left: -13px;
+}
+
+.nav-icon{
+    padding-bottom: 20px;
+}
+
+.sideNavOpen{
+    height: 100%;
+    width: 200px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+/*    transition: 0.1s;*/
+    background-color: transparent;
+}
+
+.sideNavClose{
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+    transition: 0.1s;
+    background-color: transparent;
+}
+.nav-menu-item{
+    margin-top: 20px !important;
+    text-decoration: none;
+    color:white; 
+}
+.nav-menu-item:hover{
+    text-decoration: none;
+    color:white; 
+    border-left: 5px solid white;
+    transition: 0.1s;
+}
+
+/*Navbar*/
+
+/*Register*/
+
+.register{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+/*    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);*/
+    padding: 30px;
+    background-color: transparent;
+    
+}
+
+.register .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat-Black";
+}
+
+.register-form .form-field {
+    position: relative;
+    margin: 32px 0;
+/*    background: transparent;*/
+}
+
+
+
+.register-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: white;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: "Montserrat-Bold";
+    background-color: transparent;
+    color: #4b6cb7;
+}
+
+.register-form .input-text:focus + .label, .register-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.register-form .input-text:focus{
+    outline: none;
+}
+
+.register-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+/*    color: #5543ca;*/
+    color: white;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 5px;
+}
+
+.register-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #a72879, #064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.gender{
+    padding-top: 8px;
+    font-size: 18px;
+    color:white;
+}
+/*Register*/
+
+/*Responsive*/
+
+/*navbar*/
+@media (max-width:615px){
+    .sideNavClose{
+        visibility: hidden;
+    }
+    
+    .sideNavOpen{
+        transition: 0.1s;
+        background-color: #182848;
+        background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    }
+}
+/*navbar*/
+
+/*Responsive*/
